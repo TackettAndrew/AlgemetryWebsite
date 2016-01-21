@@ -1,6 +1,6 @@
 window.onload = Onload;
 function Onload() {
-    document.getElementById("mute").onclick = dumbbutton;
+    //document.getElementById("mute").onclick = dumbbutton;
     document.getElementById("convert").onclick = convert;
 }
 
