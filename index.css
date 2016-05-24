@@ -1,0 +1,40 @@
+
+/*welcome*/
+
+.welcome {
+    width: 100%;
+    display: table;
+    text-align: center;
+    background: white;
+}
+
+/*.pbustersWel {
+    heigh
+}*/
+
+.welcomeIMG {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100px;
+}
+
+.pbustersIMG {
+    position: relative;
+    text-align: center;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    top: 0;
+}
+
+
+
+/*MOBILE*/
+
+@media all and (max-width: 660px){
+    .welcomeTXT {
+        width: 90%;
+        margin: 5%;
+    }
+}

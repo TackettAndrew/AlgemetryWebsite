@@ -1,0 +1,317 @@
+
+/*Site Wide*/
+
+body {
+    margin: 0;
+    margin-top: 60px;                                               /*FOR HEADER*/
+    font-family: 'Oxygen', sans-serif;
+    color: #2b2b2b;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+}
+
+.oxygen {
+    font-family: 'Oxygen', sans-serif;
+    color: #666666;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.onecolp {                                                          /*One Collumn Paragraph Preset (is responsive)*/
+    display: block;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: #666666;
+}
+
+/*Navigation*/
+
+.header-logo {
+    height: 55px;
+    width: auto;
+    top: 2.5px;
+    left: 5px;
+    position: absolute;
+    top
+}
+
+.nav {                                                              /*Navigation Bar*/
+    background: #65ff1a;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,.3);
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    left: 0;
+    top: 0;
+    border: none;
+    z-index: 1000000;
+    display: block;
+    text-align: center;
+}
+
+.button {                                                           /*Navigation Button*/
+    height: 100%;
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 20px 0 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+    margin-left: -5px;
+    transition: background .2s, color .2s;
+}
+.button:hover {
+    background-color: rgba(27,135,169,0.2);
+}
+
+.links {
+    float: right;
+    display: inline-block;
+}
+/*------------------------------------*/
+/*HOMEPAGE*/
+
+.onecolpIMGcon {
+    width: 100%;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.onecolpIMG {
+    width: 100%;
+    height: auto;
+}
+
+.IMGboxshadow {
+    box-shadow:
+    10px 10px 30px 0px rgba(0,0,0,.3),
+    0px 0px 10px 0px rgba(0,0,0,.3);
+}
+
+.linktosheets {
+    font-size: 100px;
+    text-decoration: none;
+    color: pink;
+}
+
+.half-buy-button {
+    position: relative;
+    display: inline-block;
+    background: #0077ff;
+    border: none;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0.5px 0.5px 0 0 blue, 1px 1px 0 0 blue, 1.5px 1.5px 0 0 blue, 2px 2px 0 0 blue, 2.5px 2.5px 0 0 blue, 3px 3px 0 0 blue, 3.5px 3.5px 0 0 blue, 4px 4px 0 0 blue, 4.5px 4.5px 0 0 blue, 5px 5px 0 0 blue, 5.5px 5.5px 0 0 blue, 6px 6px 0 0 blue, 6.5px 6.5px 0 0 blue, 7px 7px 0 0 blue, 7.5px 7.5px 0 0 blue, 8px 8px 0 0 blue, 8.5px 8.5px 0 0 blue, 9px 9px 0 0 blue;
+}
+
+.half-buy-button:active {
+    bottom: -9px;
+    box-shadow: none;
+    right: -9px;
+}
+
+/*HOMEPAGE*/
+/*------------------------------------*/
+
+/*------------------------------------*/
+/*TESTIMONIALS*/
+
+.faketweet {
+    padding: 20px 20px 11.6px 20px;
+    cursor: pointer;
+    font-family: Arial;
+    color: #1c2022;
+    white-space: initial;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    border-radius: 4px;
+    max-width: 520px;
+}
+
+.profile-pic {
+    height: 36px;
+    width: 36px;
+    border-radius: 4px;
+    border: 0px;
+    display: inline;
+    margin-right: 9px;
+}
+
+.namecon {
+    font-size: 14px;
+    display: inline-block;
+    margin: 0;
+}
+
+.namecon:hover > .name {
+    color: #3b94d9;
+}
+
+.name {
+    color: #1c2022;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
+
+.handle {
+    color: #697882;
+    margin: 0;
+}
+
+.follow {
+    display: inline-block;
+    padding: 5.5px 13px 6.5px 11.5px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 18px;
+    color: #55acee;
+    background-color: #fff;
+    border: 1px solid #55acee;
+    border-radius: 4px;
+    float: right;
+    text-decoration: none;
+}
+
+.follow:hover {
+    background: #55acee;
+    color: #fff;
+}
+
+.follow:hover > .twitter-bird {
+    background: url(../images/birdwhite.svg);
+}
+
+.Follow {
+    display: inline-block;
+    position: relative;
+    top: -4px;
+}
+
+.twitter-bird {
+    background: url(../images/bird.svg);
+    height: 18px;
+    width: 17.5px;
+    display: inline-block;
+}
+
+.tweet-con {
+    margin-top: 14px;
+}
+
+.tweet-con > p {
+    margin: 0;
+}
+
+.hashtags {
+    text-decoration: none;
+    color: #0084B4;
+}
+
+.tweet-con > a:hover {
+    text-decoration: underline;
+}
+
+.timestamp {
+    margin-top: 3.2px;
+}
+
+.timestamp > a {
+    color: #828F97;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.timestamp > a:hover {
+    color: #2b7bb9;
+    font-size: 14px;
+}
+
+.bottom {
+    margin-top: 8.4px;
+    height: 13.6px;
+}
+
+/*TESTIMONIALS*/
+/*------------------------------------*/
+
+/*FOOTER*/
+
+.footer {
+    clear: both;
+    position: relative;
+    background: #444;
+    color: white;
+    z-index: 1000;
+    margin: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+    bottom: 0;box-shadow: inset 0 0 100px #2b2b2b;
+}
+
+.footer p {
+    color: #eee;
+    font-size: 14px;
+    /*display: table-cell;
+    vertical-align: middle;*/
+    text-align: center;
+}
+
+.bunnies {
+    white-space: pre;
+}
+
+.footer-iframe {
+    border: none;
+    width: 100%;
+    height: 183px;
+    margin: 0;
+    margin-bottom: -4px;
+}
+
+/*MOBILE*/                                                          /*Media Queries for Responsive Styling*/
+
+@media all and (max-width: 660px){
+    
+    .footer p {
+        font-size: 10px;
+    }
+    .onecolp {
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .button {
+        padding: 0 10px 0 10px;
+        font-size: 15px;
+    }
+    .nav > h1 {
+        display: none;
+    }
+    
+    .links {
+        float: none;
+    }
+}
